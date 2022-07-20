@@ -1,5 +1,5 @@
 Request method:	POST
-*Request URI:	https://reqres.in/api/users
+*Request URI:	https://reqres.in/api/login
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -11,28 +11,25 @@
 Multiparts:		<none>
 Body:
 {
-    "name": "morpheus",
-    "job": "leader"
+#    "email": "eve.holt@reqres.in",
+    "password": "cityslicka"
 }
-HTTP/1.1 201 Created
-%Date: Wed, 20 Jul 2022 03:06:33 GMT
+HTTP/1.1 200 OK
+%Date: Wed, 20 Jul 2022 03:21:11 GMT
 /Content-Type: application/json; charset=utf-8
-Content-Length: 84
+Content-Length: 29
 Connection: keep-alive
 X-Powered-By: Express
  Access-Control-Allow-Origin: *
-*Etag: W/"54-/WpbIa4MnDldtW5wAVd9baoJjWE"
+*Etag: W/"1d-lGCrvD6B7Qzk11+2C98+nGhhuec"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
 dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-üReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wKg5nGBCu6Sv06bo8EtnJB59nT%2BBDOinCgePBWYd77k2CuGEkCPO3RtO6ve444KM4NEfXP4ttqtrx%2FGgSeZKDyBTo4rS8Goz1lP9eS82k0rErgsD4%2BZy4XdhBg%3D%3D"}],"group":"cf-nel","max_age":604800}
+øReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=W4sPpCFel7mMRNgKHRQQWqCIfFQYIivXQHKDhPjfQu489HUrr0Uu4tyPPGkL840wKzKSwaRRrGLAejCIL5EQyJcx239vX0lwSFbYCJjaQKI21%2BEwiqhwaqYBVA%3D%3D"}],"group":"cf-nel","max_age":604800}
 CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 72d87b464a64b3eb-MIA
+CF-RAY: 72d890b75ada222d-MIA
 
 {
-    "name": "morpheus",
-    "job": "leader",
-    "id": "917",
-,    "createdAt": "2022-07-20T03:06:33.503Z"
+!    "token": "QpwL5tke4Pnpja7X4"
 }

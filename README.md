@@ -10,7 +10,7 @@ Shernandez30307@ufide.ac.cr
 
 
  
-I.	INTRODUCCIÓN
+#I.	INTRODUCCIÓN
 Las pruebas de API (Application Programming Interface) son un tipo de prueba de software que determina si una aplicación recién desarrollada cumple con las expectativas, en términos de confiabilidad, rendimiento, operaciones y seguridad. La presente simulación se basa en una serie de imitaciones de circunstancias basadas en la realidad en las cuales se aplican pruebas API teniendo como guía la página web: https://reqres.in/. Se utiliza el ambiente de desarrollo IntelliJ IDEA donde se importan librerías tales como io.restassured.RestAssured, org.junit.jupiter.api.Test y org.hamcrest.Matchers.notNullvalue. Además, se utiliza GitHub para el control de versiones y su organización.
 II.	DESARROLLO
 El término API es una abreviatura de Application Programming Interfaces, que en español significa interfaz de programación de aplicaciones. Se trata de un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones, permitiendo la comunicación entre dos aplicaciones de software a través de un conjunto de reglas. [1]
